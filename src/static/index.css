@@ -1,0 +1,21 @@
+.earthContainer {
+  width: 800px;
+  height: 530px;
+  margin: auto;
+  position: relative;
+}
+
+.earthContainer>div {
+  position: absolute !important;
+}
+
+.earthContainer>#textBox {
+  width: 300px;
+  color: white;
+  font-size: 18px;
+  padding: 3px;
+  border-radius: 5%;
+  display: none;
+  z-index: 1;
+  /* text-align: center; */
+}
